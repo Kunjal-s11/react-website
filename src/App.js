@@ -48,7 +48,7 @@ class App extends React.Component {
   render() {
   return (
     <div>
-      <Header currentUser = {this.state.currentUser}/>
+      <Header  />
       <Switch>
         <Route exact={true} path='/' component={HomePage}/>
         <Route exact={true} path='/shop' component={ShopPage}/>
@@ -58,5 +58,5 @@ class App extends React.Component {
   );
 }
 }
-
+    
 export default App;
