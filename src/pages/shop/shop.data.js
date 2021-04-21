@@ -1,246 +1,246 @@
 const SHOP_DATA = [
   {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'Wallets and Clutches',
+    routeName: 'walletsandclutches',
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25
+        name: 'Small Wallet',
+        imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/51vPggn8hxL._AC_UX385_.jpg',
+        price: 350
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-        price: 18
+        name: 'Floral Wallet',
+        imageUrl: 'https://www.shopmyexchange.com/products/images/xlarge/8909329_P3H6.jpg',
+        price: 450
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-        price: 35
+        name: 'Vintage Stylish',
+        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtQxesdoy2bF_P84o5dQtGLbiVBD_VjMMegQ&usqp=CAU',
+        price: 1050
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-        price: 25
+        name: 'Party Purse',
+        imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/71dEUg2u3yL._AC_UX395_.jpg',
+        price: 750
       },
       {
         id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-        price: 18
+        name: 'Formal Purse',
+        imageUrl: 'https://i.ebayimg.com/images/g/h14AAOSwSeVdx~iX/s-l300.jpg',
+        price: 1750
       },
       {
         id: 6,
-        name: 'Palm Tree Cap',
-        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-        price: 14
+        name: 'Shoulder Bag',
+        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSMtwpSn2SQh7Mby1L-rmaaVQx_IvvjyeFFw&usqp=CAU',
+        price: 600
       },
       {
         id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        price: 18
+        name: 'Leather Bag',
+        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiFaL5acpqVm_AxKcPhugFtphcF7_xgppAcw&usqp=CAU',
+        price: 3000
       },
       {
         id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        price: 14
+        name: 'Laptop Bag',
+        imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/71fxNoQCeSL._AC_SX466_.jpg',
+        price: 2999
       },
       {
         id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-        price: 16
+        name: 'Bagpack',
+        imageUrl: 'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1560455338-8aru2105-001-rs-1560455333.jpg',
+        price: 749
       }
     ]
   },
   {
     id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
+    title: 'Accessories',
+    routeName: 'accessories',
     items: [
       {
         id: 10,
-        name: 'Adidas NMD',
-        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
+        name: 'Earings',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0900/2824/products/EC-54BZGJ-p_1943eee5-560d-41d2-a2e6-71ea8b8e9803.jpg?v=1576087570',
         price: 220
       },
       {
         id: 11,
-        name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-        price: 280
+        name: 'Chain',
+        imageUrl: 'https://auricjewellery.com/wp-content/uploads/2020/11/Types-of-Gold-Chain-Necklaces-Designs-for-Women.jpg',
+        price: 180
       },
       {
         id: 12,
-        name: 'Black Converse',
-        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-        price: 110
+        name: 'Bracelet',
+        imageUrl: 'https://i.pinimg.com/originals/de/09/4b/de094bc50fe65a7f6b658adfc2407736.jpg',
+        price: 350
       },
       {
         id: 13,
-        name: 'Nike White AirForce',
-        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-        price: 160
+        name: 'Ring',
+        imageUrl:'https://ae01.alicdn.com/kf/HTB176ELXc_vK1Rjy0Foq6xIxVXao/Fashion-Rose-Gold-Rings-For-Women-Opening-Adjustable-Hollow-Heart-Ring-Engagement-Jewelry-Finger-Rings-For.jpg',
+        price: 250
       },
       {
         id: 14,
-        name: 'Nike Red High Tops',
-        imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-        price: 160
+        name: 'Anklet',
+        imageUrl: 'https://m.media-amazon.com/images/S/aplus-media/sc/9ebf8814-881f-422f-8536-c64bb5fe8582.__CR125,212,4431,2741_PT0_SX970_V1___.jpg',
+        price: 50
       },
       {
         id: 15,
-        name: 'Nike Brown High Tops',
-        imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
+        name: 'Maang Tika',
+        imageUrl: 'https://silvermerc.com/wp-content/uploads/2021/01/SBM5MM_04-4.jpg',
         price: 160
       },
       {
         id: 16,
-        name: 'Air Jordan Limited',
-        imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
+        name: 'Cocktail Ring',
+        imageUrl: 'https://ae01.alicdn.com/kf/HTB1XM7Mm1ySBuNjy1zdq6xPxFXaD/Brilliant-Amazing-Big-Red-Stone-Ring-Cubic-Zirconia-Ring-Rose-Gold-Color-Cocktail-Ring-Women-Party.jpg_Q90.jpg_.webp',
         price: 190
       },
       {
         id: 17,
-        name: 'Timberlands',
-        imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
+        name: 'Broach',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0001/8559/7956/products/SP78107_model_525x700.jpg?v=1571324861',
         price: 200
       }
     ]
   },
   {
     id: 3,
-    title: 'Jackets',
-    routeName: 'jackets',
+    title: 'Cosmetics',
+    routeName: 'cosmetics',
     items: [
       {
         id: 18,
-        name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-        price: 125
+        name: 'Sparkling Nail Paint',
+        imageUrl: 'https://www.cuded.com/wp-content/uploads/2015/08/glitter-nail-56.jpg',
+        price: 199
       },
       {
         id: 19,
-        name: 'Blue Jean Jacket',
-        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-        price: 90
+        name: 'Night Cream',
+        imageUrl: 'https://images-static.nykaa.com/media/catalog/product/a/6/a609a768906120580502_1.jpg?tr=w-500,pr-true',
+        price: 175
       },
       {
         id: 20,
-        name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-        price: 90
+        name: 'Eyeliner',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0054/5796/9240/products/MTM-punk-open_3000x3000-903BU-l389Ps-92kWK_900x900.jpg?v=1575558475',
+        price: 399
       },
       {
         id: 21,
-        name: 'Brown Shearling',
-        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-        price: 165
+        name: 'Lipstick',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/1803/1135/products/Bombshell_Text.jpg?v=1506987105',
+        price: 450
       },
       {
         id: 22,
-        name: 'Tan Trench',
-        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-        price: 185
+        name: 'Cleansing Milk',
+        imageUrl: 'https://cdn11.bigcommerce.com/s-ek0qnl4exn/images/stencil/1280x1280/products/958/3616/5060063490045__57344.1591695199.jpg?c=2',
+        price: 250
       }
     ]
   },
   {
     id: 4,
-    title: 'Womens',
-    routeName: 'womens',
+    title: 'Traditional Wear',
+    routeName: 'traditional',
     items: [
       {
-        id: 23,
-        name: 'Blue Tanktop',
-        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
-        price: 25
+        id: 30,
+        name: 'Saree',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/1889/6923/products/white-with-pink-wedding-silk-saree-9ka4118-arrs-silks-14462764974133.jpg?v=1584755643',
+        price: 450
       },
       {
-        id: 24,
-        name: 'Floral Blouse',
-        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-        price: 20
+        id: 31,
+        name: 'Salwar Suit',
+        imageUrl: 'https://www.mongoosekart.com/image/cache/data/4p/mak-1200-800x800.png',
+        price: 1050
       },
       {
-        id: 25,
-        name: 'Floral Dress',
-        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-        price: 80
+        id: 32,
+        name: 'Anarkali',
+        imageUrl: 'https://i.pinimg.com/originals/f5/63/c0/f563c0ffd228290869a58d057ee8edd3.jpg',
+        price: 1500
       },
       {
-        id: 26,
-        name: 'Red Dots Dress',
-        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-        price: 80
+        id: 33,
+        name: 'Lehenga',
+        imageUrl: 'https://images.herzindagi.info/image/2019/Aug/anushka-sharma-bridal-photoshoot-main.jpg',
+        price: 3500
       },
       {
-        id: 27,
-        name: 'Striped Sweater',
-        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-        price: 45
+        id: 34,
+        name: 'Gown',
+        imageUrl: 'http://www.ajaylphoto.co.za/wp-content/uploads/2014/08/fbd5957154f5bf635aebe6548e346ad9.jpg',
+        price: 999
       },
       {
-        id: 28,
-        name: 'Yellow Track Suit',
-        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-        price: 135
-      },
-      {
-        id: 29,
-        name: 'White Blouse',
-        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-        price: 20
+        id: 35,
+        name: 'Kurta',
+        imageUrl: 'https://i.pinimg.com/originals/53/e5/88/53e5886757255a88a8e30c26ac23e6eb.jpg',
+        price: 650
       }
     ]
   },
   {
     id: 5,
-    title: 'Mens',
-    routeName: 'mens',
+    title: 'Western Wear',
+    routeName: 'western',
     items: [
       {
-        id: 30,
-        name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-        price: 325
+        id: 23,
+        name: 'Blue Tanktop',
+        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+        price: 750
       },
       {
-        id: 31,
-        name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-        price: 20
+        id: 24,
+        name: 'Floral Blouse',
+        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+        price: 450
       },
       {
-        id: 32,
-        name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-        price: 25
+        id: 25,
+        name: 'Floral Dress',
+        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+        price: 1299
       },
       {
-        id: 33,
-        name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-        price: 25
+        id: 26,
+        name: 'Red Dots Dress',
+        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+        price: 4000
       },
       {
-        id: 34,
-        name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-        price: 40
+        id: 27,
+        name: 'Striped Sweater',
+        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
+        price: 699
       },
       {
-        id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-        price: 25
+        id: 28,
+        name: 'Yellow Track Suit',
+        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
+        price: 299
+      },
+      {
+        id: 29,
+        name: 'White Blouse',
+        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
+        price: 569
       }
     ]
   }
