@@ -16,10 +16,10 @@ import './header.styles.scss';
 const Header = ({ currentUser, hidden }) => (
   <div className='header'>
     <Link className='logo-container' to='/'>
-      <Logo className='logo' /><div style={{fontWeight:"bolder"}}>WOMANAIA</div>
+      <Logo className='logo' /><div style={{fontWeight:"bolder"}}>WOMANIYA</div>
     </Link>
     <div className="options" style={{fontFamily: "'Pacifico', cursive",fontWeight:"bold",fontSize:"20px",color:"#99003d"}}>
-      Your Beauty. Our Passion
+      Your Styling. Our Passion
     </div>
     <div className='options'>
       <Link className='option' to='/shop'>

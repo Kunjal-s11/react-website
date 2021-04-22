@@ -86,7 +86,7 @@ const SHOP_DATA = [
       {
         id: 13,
         name: 'Ring',
-        imageUrl:'https://ae01.alicdn.com/kf/HTB176ELXc_vK1Rjy0Foq6xIxVXao/Fashion-Rose-Gold-Rings-For-Women-Opening-Adjustable-Hollow-Heart-Ring-Engagement-Jewelry-Finger-Rings-For.jpg',
+        imageUrl:'https://i.pinimg.com/564x/1b/42/77/1b4277523b7632d34cd69d34cce4c96f.jpg',
         price: 250
       },
       {
