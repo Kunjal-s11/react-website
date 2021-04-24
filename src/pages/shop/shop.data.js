@@ -31,7 +31,7 @@ const SHOP_DATA = [
       {
         id: 5,
         name: 'Formal Purse',
-        imageUrl: 'https://i.ebayimg.com/images/g/h14AAOSwSeVdx~iX/s-l300.jpg',
+        imageUrl: 'https://4.imimg.com/data4/UF/MV/GLADMIN-3857106/formal-bag-500x500.jpg',
         price: 1750
       },
       {
@@ -86,7 +86,7 @@ const SHOP_DATA = [
       {
         id: 13,
         name: 'Ring',
-        imageUrl:'https://ae01.alicdn.com/kf/HTB176ELXc_vK1Rjy0Foq6xIxVXao/Fashion-Rose-Gold-Rings-For-Women-Opening-Adjustable-Hollow-Heart-Ring-Engagement-Jewelry-Finger-Rings-For.jpg',
+        imageUrl:'https://img01.ztat.net/article/spp-media-p1/467074423127378fb0b59ff5ad56f619/c993e16d15a04ff1abe7234df57db09f.jpg?imwidth=762',
         price: 250
       },
       {
@@ -104,7 +104,7 @@ const SHOP_DATA = [
       {
         id: 16,
         name: 'Cocktail Ring',
-        imageUrl: 'https://ae01.alicdn.com/kf/HTB1XM7Mm1ySBuNjy1zdq6xPxFXaD/Brilliant-Amazing-Big-Red-Stone-Ring-Cubic-Zirconia-Ring-Rose-Gold-Color-Cocktail-Ring-Women-Party.jpg_Q90.jpg_.webp',
+        imageUrl: 'https://5.imimg.com/data5/RJ/PD/LO/SELLER-30544557/cocktail-rings-500x500.jpg',
         price: 190
       },
       {

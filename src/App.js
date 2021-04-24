@@ -10,7 +10,11 @@ import ShopPage from './pages/shop/shop.component';
 import ContactPage from './pages/contact/contact.component.jsx';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import CheckoutPage from './pages/checkout/checkout.component';
-
+import CosmeticsPage from './pages/Components/cosmetics.component.jsx'
+import TraditionalPage from './pages/Components/traditional.components.jsx';
+import WesternPage from './pages/Components/western.component.jsx';
+import WalletsAndClutchesPage from './pages/Components/walletsAndClutches.component.jsx';
+import AccessoriesPage from './pages/Components/accessories.components.jsx';
 import Header from './components/header/header.component';
 
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
@@ -54,6 +58,12 @@ class App extends React.Component {
           <Route path='/shop' component={ShopPage} />
           <Route exact path='/checkout' component={CheckoutPage} />
           <Route exact path='/contact' component={ContactPage} />
+          <Route exact path='/cosmetics' component={CosmeticsPage} />
+          <Route exact path='/accessories' component={AccessoriesPage} />
+          <Route exact path='/traditional' component={TraditionalPage} />
+          <Route exact path='/western' component={WesternPage} />
+          <Route exact path='/walletsAndClutches' component={WalletsAndClutchesPage} />
+          
           <Route
             exact
             path='/signin'

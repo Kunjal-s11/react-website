@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 
 import CheckoutItem from '../../components/checkout-item/checkout-item.component';
-
+import StripeCheckoutButton from '../../components/stripe-button/stripe-button.component';
 import {
   selectCartItems,
   selectCartTotal
@@ -34,6 +34,14 @@ const CheckoutPage = ({ cartItems, total }) => (
       <CheckoutItem key={cartItem.id} cartItem={cartItem} />
     ))}
     <div className='total'>TOTAL: Rs{total}</div>
+    <StripeCheckoutButton price={total}/>
+    <div className="disclaimer">
+      DO NOT ENTER ANY OTHER CARD NUMBER<br/>
+      Dummy Card No given by stripe : 4242 4242 4242 4242<br/>
+      Expiry year : 01/2024<br/>
+      CVV : 123<br/>
+    </div>
+    
   </div>
 );
 

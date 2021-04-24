@@ -19,7 +19,7 @@ const Header = ({ currentUser, hidden }) => (
       <Logo className='logo' /><div style={{fontWeight:"bolder"}}>WOMANAIA</div>
     </Link>
     <div className="options" style={{fontFamily: "'Pacifico', cursive",fontWeight:"bold",fontSize:"20px",color:"#99003d"}}>
-      Your Beauty. Our Passion
+      Your Style. Our Passion.
     </div>
     <div className='options'>
       <Link className='option' to='/shop'>
