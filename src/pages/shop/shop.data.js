@@ -86,11 +86,7 @@ const SHOP_DATA = [
       {
         id: 13,
         name: 'Ring',
-<<<<<<< HEAD
         imageUrl:'https://img01.ztat.net/article/spp-media-p1/467074423127378fb0b59ff5ad56f619/c993e16d15a04ff1abe7234df57db09f.jpg?imwidth=762',
-=======
-        imageUrl:'https://i.pinimg.com/564x/1b/42/77/1b4277523b7632d34cd69d34cce4c96f.jpg',
->>>>>>> origin/master
         price: 250
       },
       {

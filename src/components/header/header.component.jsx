@@ -19,11 +19,7 @@ const Header = ({ currentUser, hidden }) => (
       <Logo className='logo' /><div style={{fontWeight:"bolder"}}>WOMANIYA</div>
     </Link>
     <div className="options" style={{fontFamily: "'Pacifico', cursive",fontWeight:"bold",fontSize:"20px",color:"#99003d"}}>
-<<<<<<< HEAD
-      Your Style. Our Passion.
-=======
       Your Styling. Our Passion
->>>>>>> origin/master
     </div>
     <div className='options'>
       <Link className='option' to='/shop'>
